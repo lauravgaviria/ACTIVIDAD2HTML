@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    }
+    body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: medium;
+        background-image: url(Imagenes/logosena.png);
+    }
+    header {
+        background-color: white;
+        padding: 10px;
+        text-align: center;
+        color: #28a745;
+    }
+    main {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: white;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #video-container {
+        position: relative;
+        padding-bottom: 56.25%; 
+        height: 0;
+    }
+    #youtube-video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    audio {
+        width: 100%;
+        margin-top: 10px;
+    }
+    #continue-button {
+        display: block;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+        background-color: #28a745;
+        color: white;
+        text-decoration: none;
+    }
+    #continue-button:hover {
+        background-color: #28a745;
+    }
